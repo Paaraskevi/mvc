@@ -1,0 +1,22 @@
+//colors
+$back:lighten(#cccccc,10);//#e7eaec;
+
+$blue:#1a58b3;
+$blue2:darken(#1a58b3,5);
+$textcolor:darken(#1a58b3,20);
+$info:$blue;
+$info2:$blue2;
+$danger:$blue;
+$danger2:$blue2;
+
+//@media
+$media1:1200px;
+$media2:1170px;
+$media3:1000px;
+$media4:992px;
+$media5:768px;
+$media6:$media5 - 1;//767px;
+$media7:350px;
+
+
+

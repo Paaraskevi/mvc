@@ -1,0 +1,91 @@
+/*
+Loaded in every page after all other css files.
+*/
+
+.foreign-action-buttons {
+    min-width: 100px;
+}
+
+.select2-container--open {
+    z-index: 2051;
+}
+
+/* Add scrollbar to menu */
+#left_menu {
+    height: 100%;
+    overflow: auto;
+}
+
+#left_menu::-webkit-scrollbar {
+    width: 12px;  /* for vertical scrollbars */
+    height: 12px; /* for horizontal scrollbars */
+}
+
+#left_menu::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#left_menu::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.39);
+}
+
+.content-only {
+    margin: 0 0 0 0!important;
+}
+
+/* Add fixed top margin to template_content edit outer tab container. */
+.main-page-content {
+    margin-top: 170px;
+}
+
+.wrapper.wrapper-content {
+    margin-top: 155px;
+}
+
+.tab-content .wrapper.wrapper-content {
+    margin-top: 0px;
+}
+.nav-tabs > li .close {
+    margin: -2px 0 0 10px;
+    font-size: 18px;
+}
+
+.content-only .wrapper.wrapper-content {
+    margin-top: 0px;
+}
+
+/* Add fixed bottom margin to template_content edit outer tab container. */
+.main-page-content > .tab-content {
+    padding-bottom: 55px;
+}
+
+.content-only .main-page-content {
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+.swal-custom-text-wrapper {
+    display: block;
+    margin-top: -182px;
+    height: 70vh;
+    width: 50vw;
+    left: 745px;
+}
+
+.swal-custom-text-wrapper > p:last-of-type {
+    overflow-y: scroll;
+    height: 358px;
+    text-align: left;
+}
+
+.sweet-alert.visible .confirm[disabled] {
+    cursor: not-allowed;
+    background: repeating-linear-gradient(
+            45deg,
+            #606dbc,
+            #606dbc 10px,
+            #465298 10px,
+            #465298 20px
+    );
+
+}

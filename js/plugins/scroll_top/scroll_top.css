@@ -1,0 +1,19 @@
+#scrollTop {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-image: url(./arrow.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    right: 10px;
+    bottom: 10px;
+    visibility: visible !important;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    opacity: 0;
+    z-index: 1000000 !important;
+}
+#scrollTop:hover {
+    opacity: 1 !important;
+}
